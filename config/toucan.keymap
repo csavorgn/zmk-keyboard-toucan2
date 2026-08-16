@@ -83,6 +83,10 @@
 &trans     &trans     &trans       &kp C_BRI_DN      &kp C_BRI_UP     &trans            &trans     &kp HOME    &kp PG_UP  &kp PG_DN  &kp END        &kp F11
 
 &trans     &trans   &trans             &trans    &trans      &trans
+
+            >;
+        }; 
+        
         ctrl3 {
             display-name = "CTRL";
             bindings = <
@@ -100,9 +104,9 @@
             display-name = "NUM";
             bindings = <
 
-&kp RET     &kp FSLH      &kp N7        &kp N8        &kp N9        &kp MINUS        &none     &none        &none      &none      &none      &none
+&kp RET     &kp FSLH      &kp N7        &kp N8        &kp N9        &kp MINUS        &none     &none        &none      &none      &none      &trans
 &kp EQUAL   &kp STAR      &kp N4        &kp N5        &kp N6        &kp PLUS         &tog 4    &kp RSHIFT   &kp RCTRL  &kp RALT   &kp RGUI   &none
-&kp EQUAL   &kp COMMA     &kp N1        &kp N2        &kp N3        &kp DOT          &none     &none        &none      &none      &none      &trans
+&kp EQUAL   &kp COMMA     &kp N1        &kp N2        &kp N3        &kp DOT          &none     &none        &none      &none      &none      &none
 
 &kp N0   &kp BSPC    &trans          &trans    &trans    &trans
 
